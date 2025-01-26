@@ -1,0 +1,40 @@
+# Gradle-specific files
+.gradle/
+build/
+
+# IDEA-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macOS-specific files
+.DS_Store
+
+# Java-specific exclusions
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Dependency directories
+lib/
+out/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Gradle Wrapper
+.gradle/
+!gradlew
+!gradlew.bat
+!gradle-wrapper.jar
+.gradle-wrapper/
+
+# Other IDE-specific files
+.vscode/
+*.sublime-workspace
+*.sublime-project
